@@ -10,7 +10,7 @@
   </parent>
   <groupId>muzapp</groupId>
   <artifactId>song</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1-SNAPSHOT</version>
 
   <name>song</name>
 
@@ -18,6 +18,8 @@
 
   <properties>
     <java.version>17</java.version>
+
+    <archiva.url>http://localhost:8090/repository</archiva.url>
   </properties>
 
   <build>
@@ -63,5 +65,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>internal</id>
+      <name>Archiva Managed Internal Repository</name>
+      <url>${archiva.url}/internal</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>Archiva Managed Snapshot Repository</name>
+      <url>${archiva.url}/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
