@@ -49,6 +49,13 @@ This program is aimed to:
 
 ### Testing
 
+- [Testing Microservices](https://www.zartis.com/testing-microservices/)
+- [Microservices Testing Strategies, Types & Tools: A Complete Guide](https://www.simform.com/blog/microservice-testing-strategies)
+- [Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/)
+- [Jfokus: Testing Microservices](https://www.youtube.com/watch?v=uUR8m8AdJvM)
+- [Testing Java Microservices: From Development to Production](https://www.youtube.com/watch?v=V80MztOCCjo)
+- [A Better Approach for Testing Micro Services – Introducing: Test Kits in Practice](https://www.youtube.com/watch?v=BhjFUVuPa2U)
+
 ### Containerization
 
 ### Service discovery
